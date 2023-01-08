@@ -15,8 +15,8 @@ import ContactMe from './routes/ContactMe';
 
 function App() {
   return (<>
-  <Head />
-    <BrowserRouter>
+  <BrowserRouter>
+    <Head />
     <Routes>
       <Route path='/' element={
         <PortfolioMain />
@@ -24,8 +24,8 @@ function App() {
       <Route path='/aboutme' element={<AboutMe />} />
       <Route path='/contactme' element={<ContactMe />} />
     </Routes>
-    </BrowserRouter>
-  <Foot />
+    <Foot />
+  </BrowserRouter>
   </>
   );
 }

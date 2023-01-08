@@ -1,22 +1,18 @@
 import React from "react";
-import { Link, 
-    BrowserRouter, 
-    Routes,
-    Route 
-} from "react-router-dom";
-import PortfolioMain from "./PortfolioMain";
-import AboutMe from "../routes/AboutMe";
-import ContactMe from "../routes/ContactMe";
+import { NavLink } from "react-router-dom";
 
 export default function Head() {
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path='/' element={<PortfolioMain />} />
-                <Route path='/aboutme' element={<AboutMe />} />
-                <Route path='/contactme' element={<ContactMe />} />
-            </Routes>
-            <Link to='/'>Home</Link>
-        </BrowserRouter>
+        <nav>
+            <NavLink to="/">Jedediah Schuyler</NavLink>
+            <ul>
+                <li>
+                    <NavLink to="/aboutme">About Me</NavLink>
+                </li>
+                <li>
+                    <NavLink to="/contactme">Contact Me</NavLink>
+                </li>
+            </ul>
+        </nav>
     )
 }
