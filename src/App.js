@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter,
+  //BrowserRouter,
   //createBrowserRouter,
   //createRoutesFromElements,
   Route,
@@ -15,17 +15,13 @@ import ContactMe from './routes/ContactMe';
 
 function App() {
   return (<>
-  <BrowserRouter>
     <Head />
     <Routes>
-      <Route path='/' element={
-        <PortfolioMain />
-      } />
+      <Route path='/' element={<PortfolioMain />} />
       <Route path='/aboutme' element={<AboutMe />} />
       <Route path='/contactme' element={<ContactMe />} />
     </Routes>
     <Foot />
-  </BrowserRouter>
   </>
   );
 }

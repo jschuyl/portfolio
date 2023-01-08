@@ -6,8 +6,13 @@ body {
     margin: 0;
 }
 
-.NavLink {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
 }
