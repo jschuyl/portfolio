@@ -4,8 +4,12 @@
 
 body {
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
+/* nav bar */
 .nav {
     background-color: #8d918d;
     color: aliceblue;
@@ -45,3 +49,32 @@ body {
     background-color: aliceblue;
     color: #8d918d;
 }
+/*About Me */
+.container {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.itMe {
+    border-radius: 5px;
+    border-color: black;
+    border: 8px;
+    border-style: solid;
+}
+
+.meWords {
+    margin-left: 15px;
+    padding: 5px;
+    border: 3px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: groove;
+    background-color: lightgray;
+}
+/* Footer */
+ .foot {
+    position: fixed;
+    bottom: 0;
+    width: 100%
+ }

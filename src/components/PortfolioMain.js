@@ -11,7 +11,7 @@ export default function PortfolioMain() {
             <Card.Img />
             <Card.Body>
                 <Card.Header>Project Title</Card.Header>
-                <Card.Text></Card.Text>
+                <Card.Text>Test text for testing purposes!</Card.Text>
                 <Button>See it in action</Button>
                 <Button>Check my code</Button>
             </Card.Body>

@@ -7,7 +7,7 @@ import { MDBFooter,
 
 export default function Foot() {
     return ( 
-    <MDBFooter className="bg-dark text-center text-white">
+    <MDBFooter className="bg-dark text-center text-white foot">
         <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
 
             <div className="me-5 d-none d-lg-block">
