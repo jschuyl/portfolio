@@ -72,6 +72,10 @@ body {
     border-style: groove;
     background-color: lightgray;
 }
+/* Contact Me */
+.emailForm {
+    flex-direction: column;
+}
 /* Footer */
  .foot {
     position: fixed;
