@@ -1,23 +1,32 @@
-* {
-    box-sizing: border-box;
-}
+*
 
+*::before
+
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
     margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family:'Chakra Petch', sans-serif;
 }
-
+.hide {
+    display: none
+}
 /* nav bar */
 .nav {
-    background-color: #8d918d;
+    background-color: black;
     color: aliceblue;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
+    font-family: 'Rubik 80s Fade', cursive;
 }
 
 .nav ul {
@@ -26,6 +35,7 @@ body {
     padding: 0;
     margin: 0;
     gap: 1rem;
+    font-family:'Chakra Petch', sans-serif;
 }
 
 .nav a {
@@ -76,8 +86,20 @@ body {
 .emailForm {
     flex-direction: column;
 }
+/* Card */
+.card {
+    width: 300px;
+    height: 200px;
+}
+button {
+    position: absolute;
+    bottom: 2px;
+    width: 100%;
+}
 /* Footer */
- .foot {
+.foot {
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     bottom: 0;
     width: 100%

@@ -5,12 +5,12 @@ export default function ContactMe() {
     const form = useRef();
   
     const sendEmail = (e) => {
-      e.preventDefault(); //prevent refresh
+      e.preventDefault(); // prevent refresh
   
       emailjs.sendForm('gmail', 'templatePortfolio', e.target, 'Kz1NuGs3oKKPSGook')
         .then((result) => {
             console.log(result.text);
-            form.current.reset();
+            form.current.reset(); // Clear form
         }, (error) => {
             console.log(error.text);
         });
