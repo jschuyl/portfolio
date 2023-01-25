@@ -17,6 +17,10 @@ body {
 .hide {
     display: none
 }
+.center {
+    margin: auto;
+    width: 50%;
+}
 /* nav bar */
 .nav {
     background-color: black;
@@ -49,6 +53,7 @@ body {
 
 .title {
     font-size: 2rem;
+    -webkit-text-stroke: -1px -1px 0 aliceblue, 1px -1px 0 aliceblue, -1px 1px 0 aliceblue, 1px 1px 0 aliceblue,
 }
 
 .nav li:hover {
@@ -64,6 +69,7 @@ body {
     margin-top: 15px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .itMe {
@@ -87,9 +93,14 @@ body {
     flex-direction: column;
 }
 /* Card */
+.card__container {
+    display: flex;
+    flex-direction: row;
+}
 .card {
-    width: 300px;
-    height: 200px;
+    width: 32vh;
+    height: 32vh;
+    margin: 2rem;
 }
 button {
     position: absolute;
