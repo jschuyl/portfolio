@@ -6,7 +6,7 @@ import { MDBFooter,
     //MDBCol, 
     MDBIcon } from 'mdb-react-ui-kit';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Instragram } from '@fortawesome/free-regular-svg-icons' // <-- import styles to be used
+import { Instagram } from '@fortawesome/free-regular-svg-icons' // <-- import styles to be used
 
 
 export default function Foot() {
