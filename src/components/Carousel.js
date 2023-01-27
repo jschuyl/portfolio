@@ -35,9 +35,10 @@ export const CardCarousel = () => {
         className=''
         renderButtonGroupOutside={true}
         centerMode={true}
-        focusOnSelect={true}
         arrows={false}
         >
+            <div>
+
             <Card 
                 img={Emp}
                 title="Employee Manager"
@@ -45,6 +46,7 @@ export const CardCarousel = () => {
                 github="https://github.com/jschuyl/Employee_Manager"
                 linkBtn="card__btn hide"
                 />
+                </div>
 
             <Card 
                 img={Mbb}
