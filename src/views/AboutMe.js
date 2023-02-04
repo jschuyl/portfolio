@@ -11,7 +11,7 @@ export default function AboutMe() {
             <div className="whoAndWhat">
                 <div>
                     <h1>Jedediah Schuyler</h1>
-                    <h3>Certified Full Stack Developer</h3>
+                    <h4>Certified Full Stack Developer</h4>
                 </div>   
                 
                 <div className="meWords">

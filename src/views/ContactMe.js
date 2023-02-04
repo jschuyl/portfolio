@@ -21,11 +21,11 @@ export default function ContactMe() {
       <form className="container emailForm" ref={form} onSubmit={sendEmail}>
         <h2>Contact Me!</h2>
         <label>Name</label>
-        <input type="text" name="user_name" />
+        <input className="nameHere" type="text" name="user_name" />
         <label>Email</label>
-        <input type="email" name="user_email" />
+        <input className="emailHere" type="email" name="user_email" />
         <label>Message</label>
-        <textarea name="message" />
+        <textarea className="messageHere" name="message" />
         <input type="submit" value="Send" />
       </form>
         </>

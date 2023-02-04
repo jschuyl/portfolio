@@ -35,7 +35,7 @@ export const CardCarousel = () => {
         className=''
         renderButtonGroupOutside={true}
         centerMode={true}
-        arrows={false}
+        arrows={true}
         >
             <div>
 

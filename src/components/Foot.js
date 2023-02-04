@@ -4,7 +4,7 @@ import { MDBFooter } from 'mdb-react-ui-kit';
 
 export default function Foot() {
     return ( 
-    <MDBFooter className="bg-dark text-center text-white foot">
+    <MDBFooter className="bg-dark text-center text-white foot" bgColor="black">
         <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <p>Thanks for checking my stuff out!</p>
         <p>© SchuyGuy 2023</p>
