@@ -10,8 +10,8 @@ import {
 import PortfolioMain from './components/PortfolioMain';
 import Foot from './components/Foot';
 import Head from './components/Head';
-import AboutMe from './routes/AboutMe';
-import ContactMe from './routes/ContactMe';
+import AboutMe from './views/AboutMe';
+import ContactMe from './views/ContactMe';
 
 function App() {
   return (<>
