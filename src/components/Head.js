@@ -8,9 +8,6 @@ export default function Head() {
             <NavLink to="/" className="title">Jedediah Schuyler</NavLink>
             <ul>
                 <li>
-                    <NavLink to="/aboutme">About Me</NavLink>
-                </li>
-                <li>
                     <NavLink to="/contactme">Contact Me</NavLink>
                 </li>
                 <li>

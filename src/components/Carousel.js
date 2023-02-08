@@ -35,9 +35,11 @@ export const CardCarousel = () => {
         className=''
         renderButtonGroupOutside={true}
         centerMode={true}
-        arrows={true}
+        arrows={false}
+        autoPlay={true}
+        autoPlaySpeed={3000}
         >
-            <div>
+
 
             <Card 
                 img={Emp}
@@ -46,7 +48,6 @@ export const CardCarousel = () => {
                 github="https://github.com/jschuyl/Employee_Manager"
                 linkBtn="card__btn hide"
                 />
-                </div>
 
             <Card 
                 img={Mbb}
@@ -61,7 +62,7 @@ export const CardCarousel = () => {
                 img={Social}
                 title="Social Media Startup"
                 describe="Backend for a social media using MongoDB and Express"
-                github="https://github.com/jschuyl/social_media_startup"
+                github="https://github.com/jschuyl/social-media-startup"
                 linkBtn="card__btn hide"
             />
 

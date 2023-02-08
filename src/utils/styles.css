@@ -96,8 +96,8 @@ body {
 }
 
 .itMe {
-    height: auto;
-    width: 250px;
+    height: 380px;
+    width: auto;
     border-radius: 5px;
     border-color: black;
     border: 8px;
@@ -144,17 +144,37 @@ body {
     display: flex;
     flex-direction: row;
 }
+.card__description {
+    margin: 4px;
+}
+.card__title {
+    margin: 2px;
+}
+.card__body {
+    display: flex;
+    flex-direction: column;
+}
+.resize {
+    width: 37vh;
+    height: auto; 
+    float: left;
+    padding: 5px; 
+  }
 .card {
-    width: 32vh;
-    height: 32vh;
+    display: flex;
+    flex-direction: column;
+    width: 50vh;
+    height: 38vh;
     margin: 2rem;
     max-width: 300px;
     max-block-size: 300px;
+    align-content: center;
 }
 button {
     position: absolute;
     bottom: 2px;
-    width: 100%;
+    width: 98%;
+    margin: 2px;
 }
 /* Footer */
 .foot {
@@ -192,4 +212,8 @@ button {
     color: aliceblue;
     text-decoration: none;
     font-size: 2rem;
+}
+#wrapper{
+    width:960px;
+    margin:0 auto;
 }

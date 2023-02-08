@@ -3,7 +3,7 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
-import { PortfolioMain } from './components/PortfolioMain';
+import { PortfolioMain } from './views/PortfolioMain';
 import Foot from './components/Foot';
 import Head from './components/Head';
 import AboutMe from './views/AboutMe';
