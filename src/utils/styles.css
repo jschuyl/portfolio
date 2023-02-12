@@ -155,7 +155,7 @@ body {
     flex-direction: column;
 }
 .resize {
-    width: 37vh;
+    width: 34vh;
     height: auto; 
     float: left;
     padding: 5px; 
@@ -163,7 +163,7 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    width: 50vh;
+    width: 55vh;
     height: 38vh;
     margin: 2rem;
     max-width: 300px;
