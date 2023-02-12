@@ -155,7 +155,7 @@ body {
     flex-direction: column;
 }
 .resize {
-    width: 34vh;
+    width: 31vh;
     height: auto; 
     float: center;
     padding: 5px; 
