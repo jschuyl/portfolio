@@ -5,13 +5,13 @@ import { NavLink } from "react-router-dom";
 export default function Head() {
     return (
         <nav className="nav">
-            <NavLink to="/" className="title">Jedediah Schuyler</NavLink>
+            <NavLink to="/portfolio" className="title">Jedediah Schuyler</NavLink>
             <ul>
                 <li>
                     <NavLink to="/contactme">Contact Me</NavLink>
                 </li>
                 <li>
-                    <NavLink to='/'>See what I've been up to!</NavLink>
+                    <NavLink to='/portfolio'>See what I've been up to!</NavLink>
                 </li>
             </ul>
         </nav>

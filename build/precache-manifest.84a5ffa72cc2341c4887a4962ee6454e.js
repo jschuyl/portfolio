@@ -12,20 +12,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "7d73fda6387e5f67337f",
+    "revision": "1e3fde3b5a03ada71290",
     "url": "/portfolio/static/css/2.cb84a128.chunk.css"
   },
   {
-    "revision": "7d73fda6387e5f67337f",
-    "url": "/portfolio/static/js/2.1888f53c.chunk.js"
+    "revision": "1e3fde3b5a03ada71290",
+    "url": "/portfolio/static/js/2.4776002c.chunk.js"
   },
   {
     "revision": "b56c8dfde4c3504296c96d1871ef29fc",
     "url": "/portfolio/static/media/itJed.b56c8dfd.jpg"
-  },
-  {
-    "revision": "2feb69ccb596730c72920c6ba3e37ef8",
-    "url": "/portfolio/static/media/revicons.2feb69cc.eot"
   },
   {
     "revision": "17629a5dfe0d3c3946cf401e1895f091",
@@ -34,6 +30,10 @@ self.__precacheManifest = [
   {
     "revision": "04eb8fc57f27498e5ae37523e3bfb2c7",
     "url": "/portfolio/static/media/revicons.04eb8fc5.woff"
+  },
+  {
+    "revision": "2feb69ccb596730c72920c6ba3e37ef8",
+    "url": "/portfolio/static/media/revicons.2feb69cc.eot"
   },
   {
     "revision": "12a21bd51cbea5a2e403fb79c1ec8201",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/social.91ca953f.jpg"
   },
   {
-    "revision": "93e2079f942b3175137f62010f56bdad",
+    "revision": "9fe5b0ff99ddf7ae94fe75a6b2fe950c",
     "url": "/portfolio/index.html"
   }
 ];
