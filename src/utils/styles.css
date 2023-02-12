@@ -157,7 +157,7 @@ body {
 .resize {
     width: 34vh;
     height: auto; 
-    float: left;
+    float: center;
     padding: 5px; 
   }
 .card {
